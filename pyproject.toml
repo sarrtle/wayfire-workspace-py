@@ -1,0 +1,18 @@
+[project]
+name = "wayfire-script"
+version = "0.1.0"
+description = "Recieve workspace data from wayfire to waybar using pipes."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "nuitka>=2.7.3",
+    "wayfire>=3.1",
+]
+
+[tool.basedpyright]
+reportMissingTypeStubs = false
+reportUnusedCallResult = false
+reportUnknownVariableType = false
+reportUnknownMemberType = false
+reportUnknownArgumentType = false
+reportAssignmentType = false
