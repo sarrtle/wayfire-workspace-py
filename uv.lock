@@ -26,13 +26,13 @@ wheels = [
 
 [[package]]
 name = "nuitka"
-version = "2.7.3"
+version = "2.7.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "ordered-set" },
     { name = "zstandard" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d6/40/7fd16fffa8bbf78f9f9b1abe75ac123e3cc46740c6142c4db4e29b32ce4a/Nuitka-2.7.3.tar.gz", hash = "sha256:bd3dd12c5f0dfec0208f88c14ef3bbfc4ba3495eafc62c31b4e1f71171536e47", size = 3884010, upload-time = "2025-05-17T14:39:36.669Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/0a/3f/3294699ad8ebca820127b5606c77e52bb1bd5d7eea97e9dd5a6228884e80/Nuitka-2.7.7.tar.gz", hash = "sha256:327e697e1a3eea2608ca7dce228c2d7686d65e38af9907c98646695ba5df9edf", size = 3886105, upload-time = "2025-06-10T08:03:01.489Z" }
 
 [[package]]
 name = "ordered-set"
@@ -72,7 +72,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "nuitka", specifier = ">=2.7.3" },
+    { name = "nuitka", specifier = ">=2.7.7" },
     { name = "wayfire", specifier = ">=3.1" },
 ]
 
